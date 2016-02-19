@@ -62,8 +62,7 @@ Database Setup
 -------------------------------
 
 1. We are using postgres open source database for database setup.
-2. We need to add one properties file in the lib folder of the application server.
-	for example - C:\apache-tomcat-8.0.8-windows-i64\apache-tomcat-8.0.8\lib\company-db.properties
+2. To setup the new data base we just need to edit the file src/main/resources/company-db.properties
 	contents of the file.
 		company.hibernate.dialect=org.hibernate.spatial.dialect.postgis.PostgisDialect
 		company.hibernate.hbm2ddl.auto=update
